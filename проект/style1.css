@@ -1,0 +1,66 @@
+h1{
+  text-align: center;
+  margin: 0;
+  position: absolute;               
+  top: 50%;                         
+  transform: translate(20%, -100%);
+  color: #fff;
+  font-size: 700%;
+}
+h2{
+  text-align: center;
+  margin: 0;
+  position: absolute;               
+  top: 50%;                         
+  transform: translate(120%, 20%);
+  color: #fff;
+  font-size: 300%;
+}
+.first_button{
+  background-color: #2e389200; 
+  border: none;
+  color: rgb(250, 250, 250);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 200px;
+  margin-top: 400px;
+  font:15pt Arial, Helvetica, sans-serif;
+}
+.third_button{
+  background-color: #31188a00; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 150px;
+  margin-top: 400px;
+  font:15pt Arial, Helvetica, sans-serif;
+}
+.fifth_button{
+  background-color: #31188a00; 
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 200px;
+  margin-top: 400px;
+  font:15pt Arial, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  padding: 8px 50px;
+  background-color: #02f;
+  background-image: url("bg.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
