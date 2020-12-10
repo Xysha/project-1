@@ -67,7 +67,7 @@ p{
     text-align: center;
     margin-top: -220px;
 }
-a{
+.corp{
     border: 5px solid #fff;
     border-radius: 0px 50px;
     margin: 100px;
@@ -75,7 +75,7 @@ a{
     padding: 20px;
     font-family: 'Press Start 2P', cursive;
 }
-a:hover{
+.corp:hover{
     text-decoration: none;
     color: #fff;
     font-family: 'Press Start 2P', cursive;
