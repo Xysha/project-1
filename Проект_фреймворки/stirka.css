@@ -5,6 +5,7 @@ body{
     padding: 0;
     background: rgb(0, 0, 0) url(d.gif) no-repeat center center;
     background-size: 100%; 
+    transform: scaleX(-1);
     color: rgb(255, 255, 255); 
 }
 

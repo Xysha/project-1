@@ -3,7 +3,7 @@
 body{
     margin: 0 auto;
     padding: 0;
-    background: rgb(0, 0, 0) url(d.gif) no-repeat center center;
+    background: rgb(0, 0, 0) url(d2.gif) no-repeat center center;
     background-size: cover; 
     color: rgb(255, 255, 255); 
 }
@@ -34,7 +34,7 @@ body{
     border-radius: 27px ; 
     padding: 10px;
     color: #fff;
-    background: rgb(0, 0, 0) url(d.gif) no-repeat center center;
+    background: rgb(0, 0, 0) url(d2.gif) no-repeat center center;
     text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ body{
     border-radius: 40px 40px 40px 40px; 
     padding: 10px;
     color: #fff;
-    background: rgb(0, 0, 0) url(d.gif) no-repeat center center;
+    background: rgb(0, 0, 0) url(d2.gif) no-repeat center center;
     text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ body{
 .block{
     display: block;
     border-radius: 30px 30px 60px 60px;
-    padding: 20px 30px;
+    padding: 20px;
 }
 
 th + th{

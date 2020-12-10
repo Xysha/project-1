@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<div class="main"></div>
+<?php
+               $connection=mysqli_connect('server80.hosting.reg.ru', 'u1233910_default', 'r!00bH5u', 'u1233910_default');
+                if($connection == 0)
+                {
+                    echo 'Error';
+                    echo mysqli_connect_error();
+                    exit();
+                }
+?>
 <head>
     <meta charset="UTF-8">
     <title>Корпус 1</title>
@@ -20,7 +27,7 @@
 </head>
 <body class="body">
     <h1 class="title">
-        Корпус 1
+        Корпус 5
     </h1>
     <div class="menu">
         <a class="corpus" href="index.html">Главная</a>
@@ -45,33 +52,48 @@
                             <input type="range" class="custom-range" min="0" max="5" step="1" id="customRange3">-->
             
             </div>
+            
+          <?php
+                $sql = 'SELECT * FROM `washer` WHERE 1';
+                $res=mysqli_query($connection, $sql);
+                $ind = 0;
+                while($washer = mysqli_fetch_array($res)){
+                    echo '<tr class="block' . ++$ind . '">
+                    <tr class="block block_03">
+                            <th>Стиралка 2</th>
+                            <th>Этаж 3</th>
+                            <th>Занято</th>
+                            <th>13:45</th>
+                        </tr>';
+                }
+            ?>
 
             <div class="visual">
                 <div class="stiralki">
                     <table class="table_row">
-                        <tr class="block block_01">
-                            <th>ID машины</th>
-                            <th>Корпус</th>
-                            <th>Этаж</th>
-                            <th>Статус</th>
+                        <!-- <tr class="block block_01">
+                            <th>Стиралка 1</th>
+                            <th>Этаж 1</th>
+                            <th>Свободно</th>
+                            <th>--</th>
                         </tr>
                         <tr class="block block_02">
-                            <th>ID машины</th>
-                            <th>Корпус</th>
-                            <th>Этаж</th>
-                            <th>Статус</th>
-                        </tr>
+                            <th>Стиралка 1</th>
+                            <th>Этаж 5</th>
+                            <th>Свободно</th>
+                            <th>--</th>
+                        </tr> -->
                         <tr class="block block_03">
-                            <th>ID машины</th>
-                            <th>Корпус</th>
-                            <th>Этаж</th>
-                            <th>Статус</th>
+                            <th>Стиралка 2</th>
+                            <th>Этаж 3</th>
+                            <th>Занято</th>
+                            <th>13:45</th>
                         </tr>
                         <tr class="block block_04">
-                            <th>ID машины</th>
-                            <th>Корпус</th>
-                            <th>Этаж</th>
-                            <th>Статус</th>
+                            <th>Стиралка 1</th>
+                            <th>Этаж 4</th>
+                            <th>Занято</th>
+                            <th>21:23</th>
                         </tr>
                     </table>
                 </div>
